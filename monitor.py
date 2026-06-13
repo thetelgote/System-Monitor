@@ -12,7 +12,7 @@ def get_system_health():
     # DISK USAGE
     try:
 
-        disk = psutil.disk_usage("C:/").percent
+       disk = psutil.disk_usage("/").percent
 
     except:
 
